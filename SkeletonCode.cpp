@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <string>
 using namepace std;
@@ -29,6 +30,7 @@ class Logging
       private:
       public:
              void addTransaction();
+             void removeTransaction();
              void viewTransactions();
 }
 
@@ -36,6 +38,7 @@ class Menu
 {
       private:
       public:             
+            
 }
 
 // abstract
